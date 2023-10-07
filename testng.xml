@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sauce Demo Automation Suite" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="com.saucedemo.qa.listeners.MyListeners"></listener>
+	</listeners>
+	<test name="Sauce Demo Tests Chrome">
+		<parameter name="broswer" value="chrome"></parameter>
+		<classes>
+			<class name="com.saucedemo.qa.testcases.InventoryPageTest" />
+			<class name="com.saucedemo.qa.testcases.LoginTest" />
+			<class name="com.saucedemo.qa.testcases.HomePageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

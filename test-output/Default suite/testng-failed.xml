@@ -5,6 +5,7 @@
     <classes>
       <class name="com.saucedemo.qa.testcases.HomePageTest">
         <methods>
+          <include name="verifyRemoveProductFromCart"/>
           <include name="tearDown"/>
           <include name="verifyEndToEndFlow"/>
           <include name="setup"/>

@@ -1,5 +1,7 @@
 package com.saucedemo.qa.testcases;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -16,7 +18,7 @@ public class HomePageTest extends Base {
 	public WebDriver driver;
 
 	@BeforeMethod
-	public void setup() {
+	public void setup() throws IOException {
 		loadPropertiesFile();
 		driver = initializeBrowserAndOpenApplicationURL(prop.getProperty("browserName"));
 		LoginPage loginpage = new LoginPage(driver);

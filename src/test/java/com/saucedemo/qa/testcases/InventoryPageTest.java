@@ -58,6 +58,18 @@ public class InventoryPageTest extends Base {
 		logoutpage.clickOnLogoutButton();
 	}
 
+	@Test(priority = 3)
+	public void verifyFacebookLink() {
+		InventoryPage inventorypage = new InventoryPage(driver);
+		inventorypage.clickOnFacebookLink();
+	}
+
+	@Test(priority = 4)
+	public void verifyLinkedinLink() {
+		InventoryPage inventorypage = new InventoryPage(driver);
+		inventorypage.clickOnLinkedinLink();
+	}
+
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

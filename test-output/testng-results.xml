@@ -1,221 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-07T12:09:39 IST" name="Sauce Demo Automation Suite" finished-at="2023-10-07T12:10:27 IST" duration-ms="48538">
+  <suite started-at="2023-10-09T15:13:02 IST" name="Default suite" finished-at="2023-10-09T15:13:09 IST" duration-ms="7082">
     <groups>
     </groups>
-    <test started-at="2023-10-07T12:09:39 IST" name="Sauce Demo Tests Chrome" finished-at="2023-10-07T12:10:27 IST" duration-ms="48538">
+    <test started-at="2023-10-09T15:13:02 IST" name="Default test" finished-at="2023-10-09T15:13:09 IST" duration-ms="7082">
       <class name="com.saucedemo.qa.testcases.InventoryPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.InventoryPageTest@45099dd3]" started-at="2023-10-07T12:09:45 IST" name="setup" finished-at="2023-10-07T12:09:49 IST" duration-ms="3766" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.InventoryPageTest@121314f7]" started-at="2023-10-09T15:13:02 IST" name="setup" finished-at="2023-10-09T15:13:09 IST" duration-ms="6749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySortProductsAndAddToCart()[pri:1, instance:com.saucedemo.qa.testcases.InventoryPageTest@45099dd3]" started-at="2023-10-07T12:09:49 IST" name="verifySortProductsAndAddToCart" finished-at="2023-10-07T12:09:49 IST" duration-ms="604" status="PASS">
+        <test-method signature="verifyLinkedinLink()[pri:4, instance:com.saucedemo.qa.testcases.InventoryPageTest@121314f7]" started-at="2023-10-09T15:13:09 IST" name="verifyLinkedinLink" finished-at="2023-10-09T15:13:09 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySortProductsAndAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.InventoryPageTest@45099dd3]" started-at="2023-10-07T12:09:49 IST" name="tearDown" finished-at="2023-10-07T12:09:50 IST" duration-ms="186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.InventoryPageTest@45099dd3]" started-at="2023-10-07T12:09:53 IST" name="setup" finished-at="2023-10-07T12:09:56 IST" duration-ms="3079" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyAddMultipleProducts()[pri:2, instance:com.saucedemo.qa.testcases.InventoryPageTest@45099dd3]" started-at="2023-10-07T12:09:56 IST" name="verifyAddMultipleProducts" finished-at="2023-10-07T12:09:57 IST" duration-ms="794" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddMultipleProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.InventoryPageTest@45099dd3]" started-at="2023-10-07T12:09:57 IST" name="tearDown" finished-at="2023-10-07T12:09:57 IST" duration-ms="110" status="PASS">
+        </test-method> <!-- verifyLinkedinLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.InventoryPageTest@121314f7]" started-at="2023-10-09T15:13:09 IST" name="tearDown" finished-at="2023-10-09T15:13:09 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.qa.testcases.InventoryPageTest -->
-      <class name="com.saucedemo.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.HomePageTest@202b0582]" started-at="2023-10-07T12:09:39 IST" name="setup" finished-at="2023-10-07T12:09:45 IST" duration-ms="5656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRemoveProductFromCart()[pri:1, instance:com.saucedemo.qa.testcases.HomePageTest@202b0582]" started-at="2023-10-07T12:09:45 IST" name="verifyRemoveProductFromCart" finished-at="2023-10-07T12:09:45 IST" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRemoveProductFromCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.HomePageTest@202b0582]" started-at="2023-10-07T12:09:45 IST" name="tearDown" finished-at="2023-10-07T12:09:45 IST" duration-ms="156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.HomePageTest@202b0582]" started-at="2023-10-07T12:09:57 IST" name="setup" finished-at="2023-10-07T12:10:00 IST" duration-ms="3227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyEndToEndFlow()[pri:2, instance:com.saucedemo.qa.testcases.HomePageTest@202b0582]" started-at="2023-10-07T12:10:00 IST" name="verifyEndToEndFlow" finished-at="2023-10-07T12:10:01 IST" duration-ms="749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEndToEndFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.HomePageTest@202b0582]" started-at="2023-10-07T12:10:01 IST" name="tearDown" finished-at="2023-10-07T12:10:01 IST" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.saucedemo.qa.testcases.HomePageTest -->
-      <class name="com.saucedemo.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:09:50 IST" name="setup" finished-at="2023-10-07T12:09:52 IST" duration-ms="2676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyValidLoginDetailsAndLogout()[pri:1, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:09:52 IST" name="verifyValidLoginDetailsAndLogout" finished-at="2023-10-07T12:09:53 IST" duration-ms="563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyValidLoginDetailsAndLogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:09:53 IST" name="tearDown" finished-at="2023-10-07T12:09:53 IST" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:01 IST" name="setup" finished-at="2023-10-07T12:10:03 IST" duration-ms="2474" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyInvalidLoginDetails()[pri:2, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:03 IST" name="verifyInvalidLoginDetails" finished-at="2023-10-07T12:10:04 IST" duration-ms="409" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidLoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:04 IST" name="tearDown" finished-at="2023-10-07T12:10:04 IST" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:04 IST" name="setup" finished-at="2023-10-07T12:10:07 IST" duration-ms="2443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCombinationsOfLoginDetails(java.lang.String,java.lang.String)[pri:3, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:07 IST" name="verifyCombinationsOfLoginDetails" data-provider="credentialSupplier" finished-at="2023-10-07T12:10:07 IST" duration-ms="419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCombinationsOfLoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:07 IST" name="tearDown" finished-at="2023-10-07T12:10:07 IST" duration-ms="103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:07 IST" name="setup" finished-at="2023-10-07T12:10:10 IST" duration-ms="2499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCombinationsOfLoginDetails(java.lang.String,java.lang.String)[pri:3, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:10 IST" name="verifyCombinationsOfLoginDetails" data-provider="credentialSupplier" finished-at="2023-10-07T12:10:10 IST" duration-ms="374" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCombinationsOfLoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:10 IST" name="tearDown" finished-at="2023-10-07T12:10:10 IST" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:10 IST" name="setup" finished-at="2023-10-07T12:10:13 IST" duration-ms="2448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCombinationsOfLoginDetails(java.lang.String,java.lang.String)[pri:3, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:13 IST" name="verifyCombinationsOfLoginDetails" data-provider="credentialSupplier" finished-at="2023-10-07T12:10:13 IST" duration-ms="379" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user123456]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCombinationsOfLoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:13 IST" name="tearDown" finished-at="2023-10-07T12:10:13 IST" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:13 IST" name="setup" finished-at="2023-10-07T12:10:16 IST" duration-ms="2489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCombinationsOfLoginDetails(java.lang.String,java.lang.String)[pri:3, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:16 IST" name="verifyCombinationsOfLoginDetails" data-provider="credentialSupplier" finished-at="2023-10-07T12:10:16 IST" duration-ms="412" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[problem_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCombinationsOfLoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:16 IST" name="tearDown" finished-at="2023-10-07T12:10:16 IST" duration-ms="139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:16 IST" name="setup" finished-at="2023-10-07T12:10:19 IST" duration-ms="2461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCombinationsOfLoginDetails(java.lang.String,java.lang.String)[pri:3, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:19 IST" name="verifyCombinationsOfLoginDetails" data-provider="credentialSupplier" finished-at="2023-10-07T12:10:24 IST" duration-ms="5364" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance_glitch_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCombinationsOfLoginDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:24 IST" name="tearDown" finished-at="2023-10-07T12:10:24 IST" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:24 IST" name="setup" finished-at="2023-10-07T12:10:27 IST" duration-ms="2439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyWithouUsernameAndPassword()[pri:4, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:27 IST" name="verifyWithouUsernameAndPassword" finished-at="2023-10-07T12:10:27 IST" duration-ms="266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyWithouUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.qa.testcases.LoginTest@3b0fe47a]" started-at="2023-10-07T12:10:27 IST" name="tearDown" finished-at="2023-10-07T12:10:27 IST" duration-ms="139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.saucedemo.qa.testcases.LoginTest -->
-    </test> <!-- Sauce Demo Tests Chrome -->
-  </suite> <!-- Sauce Demo Automation Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

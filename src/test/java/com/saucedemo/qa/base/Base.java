@@ -2,6 +2,7 @@ package com.saucedemo.qa.base;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 

@@ -58,7 +58,7 @@ public class LoginTest extends Base {
 		return data;
 	}
 
-	// Method overloading
+	// Method overloading for username and password
 	@Test(priority = 4)
 	public void verifyWithouUsernameAndPassword() {
 		LoginPage loginpage = new LoginPage(driver);
